@@ -16,8 +16,6 @@ echo '* hard nofile 1048576' | tee -a /etc/security/limits.conf
 ulimit -n 1048576
 
 cd "/workspaces/C86"
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh && bash mega.sh
-
-curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/gaianet.sh && bash gaianet.sh
+curl -sSLO https://raw.githubusercontent.com/naksh-07/Automate/refs/heads/main/mega.sh
 
 echo "✅ All Done Bhai! Ultra OP Container READY 🚀"
